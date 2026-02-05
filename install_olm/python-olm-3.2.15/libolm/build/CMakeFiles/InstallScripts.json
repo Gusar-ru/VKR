@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/work/ilyabot/install_olm/python-olm-3.2.15/libolm/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,5 @@
+matrix-nio>=0.6
+PyYAML>=5.4
+requests>=2.31.0
+glpi-api>=0.7.0
+python-olm==3.2.15

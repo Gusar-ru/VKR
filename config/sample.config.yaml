@@ -1,0 +1,65 @@
+# Welcome to the sample config file
+# Below you will find various config sections and options
+# Default values are shown
+
+# The string to prefix messages with to talk to the bot in group chats
+command_prefix: "!v"
+
+# Only accept invites from these matrix IDs. Leave empty to allow anyone.
+invite_whitelist: []
+# Only accept specific commands from these matrix IDs. Leave empty to allow anyone.
+admin_whitelist: []
+
+#MATRIX_URL = "https://matrix.it-teacher.pro"
+#LOGIN = "bot" 
+#PASSWORD = "iIi-1234lt7LV-mi"
+#KEY = "EsU9 nRAS dZwK wWVo w5oj MUyS Ef7V 8qDB ryCR L1CF U2e8 x8Vx"
+# Options for connecting to the bot's Matrix account
+matrix:
+  # The Matrix User ID of the bot account
+  user_id: "@bot:matrix.it-teacher.pro"
+  # The access token of the bot account
+  access_token: "iIi-1234lt7LV-mi"
+  # The device ID given on login
+  device_id: bot
+  # The URL of the homeserver to connect to
+  homeserver_url: https://matrix.it-teacher.pro
+
+database:
+  # The path to the database
+  filepath: "/opt/data/bot.db"
+
+# Logging setup
+logging:
+  # Logging level
+  # Allowed levels are 'INFO', 'WARNING', 'ERROR', 'DEBUG' where DEBUG is most verbose
+  level: INFO
+  # Configure logging to a file
+  file_logging:
+    # Whether logging to a file is enabled
+    enabled: false
+    # The path to the file to log to. May be relative or absolute
+    filepath: "/opt/data/bot.log"
+  # Configure logging to the console output
+  console_logging:
+    # Whether logging to the console is enabled
+    enabled: true
+
+# PiHole setup
+pihole:
+  # The URL/IP of the PiHole to connect to
+  url: http://192.168.1.1
+
+uptimerobot:
+  # Your UptimeRobot API key
+  # For now the Read-Only key is sufficient
+  apikey: "xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx"
+
+# GLPI Setup
+glpi:
+  # The URL of your GLPI instance (e.g., https://glpi.example.com/apirest.php)
+  url: "https://glpi.example.com/apirest.php"
+  # App-Token from GLPI Setup > General > API
+  app_token: "your_app_token"
+  # User-Token from GLPI User preferences > Remote access keys
+  user_token: "your_user_token"

@@ -1,0 +1,14 @@
+version: "3"
+services:
+  ilyabot:
+    build: .
+    container_name: matrix-bot-api
+    working_dir: /opt
+    restart: unless-stopped
+    volumes:
+      - ./config/:/opt/config/
+      - ./store/:/opt/store/
+    environment:
+      - PYTHONUNBUFFERED=1
+    tty: true
+    command: ["python", "main.py"]

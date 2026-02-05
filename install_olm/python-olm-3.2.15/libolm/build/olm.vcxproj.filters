@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\cipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\crypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\pickle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\ratchet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\pk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\sas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\ed25519.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\inbound_group_session.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\megolm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\olm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\outbound_group_session.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\src\pickle_encoding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\lib\crypto-algorithms\aes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\lib\crypto-algorithms\sha256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\lib\curve25519-donna\curve25519-donna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13C79A01-9B4A-34CC-9767-9966ABE53E72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

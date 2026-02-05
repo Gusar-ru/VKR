@@ -1,0 +1,13 @@
+matrix:
+  homeserver: ""
+  user_id: ""
+  password: ""
+  device_id: ""
+  store_path: ""
+
+glpi:
+  url: "" 
+  user: ""
+  password: ""
+  app_token: ""
+  user_token: ""

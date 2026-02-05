@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\work\ilyabot\install_olm\python-olm-3.2.15\libolm\build\CMakeFiles\4c74d525ada8c993b4362b736156fb1c\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{79F0ADF4-8ADE-3B8B-94F6-B6557F24AF8A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

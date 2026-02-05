@@ -1,0 +1,10 @@
+^D:\WORK\ILYABOT\INSTALL_OLM\PYTHON-OLM-3.2.15\LIBOLM\BUILD\CMAKEFILES\4C74D525ADA8C993B4362B736156FB1C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/work/ilyabot/install_olm/python-olm-3.2.15/libolm -BD:/work/ilyabot/install_olm/python-olm-3.2.15/libolm/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/work/ilyabot/install_olm/python-olm-3.2.15/libolm/build/olm.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
